@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -12,9 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../OpenARPG.States/OpenARPG.States.csproj" />
-    <ProjectReference Include="../OpenARPG.UI/OpenARPG.UI.csproj" />
     <ProjectReference Include="..\OpenARPG.Core\OpenARPG.Core.csproj" />
+    <ProjectReference Include="..\OpenARPG.UI\OpenARPG.UI.csproj" />
+    <ProjectReference Include="..\OpenARPG.Rendering\OpenARPG.Rendering.csproj" />
+    <ProjectReference Include="..\OpenARPG.Entities\OpenARPG.Entities.csproj" />
   </ItemGroup>
 
 </Project>
